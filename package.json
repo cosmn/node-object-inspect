@@ -1,23 +1,23 @@
 {
-    "name": "dom-event-to-json",
-    "version": "1.0.1",
+    "name": "object-inspect",
+    "version": "1.0.2",
     "description": "For those cases where developer tools are not available",
-    "main": "lib/domEventToJSON.js",
+    "main": "lib/index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "distbuild":
-            "babel lib/domEventToJSON.js --out-file dist/domEventToJSON.js"
+            "babel lib/index.js --out-file dist/objectInspect.js"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/cosmn/dom-event-to-json.git"
+        "url": "git+https://github.com/cosmn/node-object-inspect.git"
     },
     "author": "",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/cosmn/dom-event-to-json/issues"
+        "url": "https://github.com/cosmn/node-object-inspect/issues"
     },
-    "homepage": "https://github.com/cosmn/dom-event-to-json#readme",
+    "homepage": "https://github.com/cosmn/node-object-inspect#readme",
     "devDependencies": {
         "babel-cli": "^6.26.0",
         "babel-plugin-transform-es2015-modules-umd": "^6.24.1",
