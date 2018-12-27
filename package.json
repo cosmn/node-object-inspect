@@ -1,43 +1,42 @@
 {
-    "name": "object-inspect",
-    "version": "1.0.2",
-    "description": "For those cases where developer tools are not available",
-    "main": "lib/index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "distbuild":
-            "babel lib/index.js --out-file dist/objectInspect.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/cosmn/node-object-inspect.git"
-    },
-    "author": "",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/cosmn/node-object-inspect/issues"
-    },
-    "homepage": "https://github.com/cosmn/node-object-inspect#readme",
-    "devDependencies": {
-        "babel-cli": "^6.26.0",
-        "babel-plugin-transform-es2015-modules-umd": "^6.24.1",
-        "babel-preset-env": "^1.7.0"
-    },
-    "optionalDependencies": {
-        "babel-eslint": "^10.0.1",
-        "eslint": "^5.9.0",
-        "eslint-config-prettier": "^3.3.0",
-        "eslint-plugin-prettier": "^3.0.0",
-        "prettier": "^1.15.2"
-      },
-    "babel": {
-        "presets": [
-            [
-                "env",
-                {
-                    "modules": "umd"
-                }
-            ]
-        ]
-    }
+  "name": "object-inspect",
+  "version": "1.0.2",
+  "description": "For those cases where developer tools are not available",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "distbuild": "babel lib/index.js --out-file dist/objectInspect.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cosmn/node-object-inspect.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cosmn/node-object-inspect/issues"
+  },
+  "homepage": "https://github.com/cosmn/node-object-inspect#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-es2015-modules-umd": "^6.24.1",
+    "babel-preset-env": "^1.7.0"
+  },
+  "optionalDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.9.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "prettier": "^1.15.2"
+  },
+  "babel": {
+    "presets": [
+      [
+        "env",
+        {
+          "modules": "umd"
+        }
+      ]
+    ]
+  }
 }
